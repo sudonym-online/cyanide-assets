@@ -1,0 +1,19 @@
+{
+  "files": {
+    "10MinutesTillDawnWebGL.data.unityweb": {
+      "size": 27343110,
+      "chunks": 3,
+      "chunkSize": 10485760
+    },
+    "10MinutesTillDawnWebGL.wasm.code.unityweb": {
+      "size": 22479428,
+      "chunks": 3,
+      "chunkSize": 10485760
+    },
+    "10MinutesTillDawnWebGL.wasm.framework.unityweb": {
+      "size": 498105,
+      "chunks": 1,
+      "chunkSize": 10485760
+    }
+  }
+}
