@@ -1,13 +1,7 @@
 {
   "name": "Balatro",
   "image-src": "https://cdn.jsdelivr.net/gh/sudonym-sudo/cyanide-assets@main/Balatro/Balatro.jpg",
-  "src": [
-    "https://cdn.jsdelivr.net/gh/sudonym-sudo/cyanide-assets@main/Balatro/balatro.zip.part_aa",
-    "https://cdn.jsdelivr.net/gh/sudonym-sudo/cyanide-assets@main/Balatro/balatro.zip.part_ab",
-    "https://cdn.jsdelivr.net/gh/sudonym-sudo/cyanide-assets@main/Balatro/balatro.zip.part_ac",
-    "https://cdn.jsdelivr.net/gh/sudonym-sudo/cyanide-assets@main/Balatro/balatro.zip.part_ad"
-  ],
+  "src": "cyanide-is-unblockable.vercel.app/Balatro/balatro.html",
   "genre": "Rougue-like",
-  "date-added": "2026-05-13",
-  "tags": ["html"]
+  "date-added": "2026-05-13"
 }
