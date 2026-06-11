@@ -9,7 +9,7 @@ let loadedChunks = 0;
 let fileBuffers = {};
 
 const logEl = document.getElementById('log');
-const progressEl = document.getElementById('progress');
+const progressEl = document.getElementById('progress-text');
 const barEl = document.getElementById('bar');
 
 function log(msg, color = '#0ff') {
