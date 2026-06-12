@@ -113,7 +113,11 @@ function startGame(config) {
   document.getElementById('loader-ui').style.display = 'none';
   document.getElementById('gameContainer').style.display = 'block';
   
-  window.gameInstance = UnityLoader.instantiate('gameContainer', config);
+  const jsonBlob = new Blob([JSON.stringify(config)], { type: 'application/json' });
+  const jsonUrl = URL.createObjectURL(jsonBlob);
+  log('[GAME] Config blob URL created', '#0f0');
+  
+  window.gameInstance = UnityLoader.instantiate('gameContainer', jsonUrl);
   
   window.addEventListener('resize', onResize);
   onResize();
